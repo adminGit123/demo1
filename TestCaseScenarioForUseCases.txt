@@ -1,0 +1,24 @@
+
+UseCase1: 
+Confirm shared GFF (Grower, Farm and Field) data visibility across multiple users [ A, B and C].
+
+1. Login inside EVO Farm application with User A
+2. Search for any GFF data & capture it.
+3. Write GFF data combination into excel sheet.
+4. Login inside the same application with User B
+5. Read the GFF combination data written in excel by User A
+6. Search the same GFF data in the application
+7. Confirm that User B can see the same GFF data combination, which user A can see.
+8. Verify the same process from point no. 4 with User C
+9. User A, B & C must be from the same organization.
+
+
+UseCase2: 
+There are two areas to confirm vehicle details [with various status conditions] existence. One is through Farm app-vehicles frame and other area is through Fleet App.
+
+1. Login inside EVO Farm application. 
+2. Search Vehicle and capture its status/attribute(eg. in-work, engine off etc)
+3. Write these details in excel sheet.
+4. Navigate to Fleet application
+5. Search the same vehicle in the application
+6. Confirm that in Fleet application user can see the same data combination.
