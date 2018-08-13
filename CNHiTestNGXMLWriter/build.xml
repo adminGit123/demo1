@@ -75,8 +75,8 @@ compilation testNGXML will be copied at the Application layer project. -->
             <classpath refid="CNHiTestNGXMLWriter.classpath"/>
         </java>
 
-    	<copy todir="C:/Workspace_PostReleaseTest/CNHiTestAutomationProject" verbose="yes" flatten="yes" failonerror="no">
-    		    	   <fileset dir="C:/Workspace_PostReleaseTest/CNHiTestNGXMLWriter/testNGXML">
+    	<copy todir="C:\testGit\demo1\CNHiTestNGXMLWriter" verbose="yes" flatten="yes" failonerror="no">
+    		    	   <fileset dir="C:\testGit\demo1\CNHiTestNGXMLWriter">
     		    	      <include name="*.xml" />
     		    	   </fileset>
     		    	</copy>
