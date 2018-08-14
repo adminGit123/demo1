@@ -1,12 +1,12 @@
-class HelloWorld
+class TestProject
 {
    public static void main(String args[])
    {
-	System.out.println("Hello World ! ");
+	System.out.println("Test Project ! ");
    }	 
 }   
 
 
 / *
-A basic java code for the beginners.....
+A basic java code for the beginners..... 
 */
